@@ -1,3 +1,8 @@
+# Copyright (c) 2018, Oracle and/or its affiliates. All rights reserved.
+#
+# Licensed under the Universal Permissive License v 1.0 as shown at
+# http://oss.oracle.com/licenses/upl.
+
 FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
 RUN apt-get update && apt-get install -y software-properties-common
 RUN add-apt-repository ppa:gophers/archive
